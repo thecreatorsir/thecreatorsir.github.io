@@ -1,164 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/all.css">
-  <link rel="stylesheet" href="style.css">
-  <title>AllAboutMe</title>
-</head>
-<body>
-  <div class="left-side">
-      <div class="my-profile">
-    <img src="shubham.jpg" class="profile-pic">
-      <h1 class="content">Shubham Sharma</h1>
-    </div>
-  <div class="left-main-container">
-    <div class="left-side-container1">
-        <i class="fas fa-briefcase left-side-icon"></i>
-      <span class="comTextFont">Web Developer and Coder</span>
-    </div></br>
-    <div class="left-side-container2">
-        <i class="fas fa-home left-side-icon"></i>
-      <span class="comTextFont">Ludhiana(Punjab),India</span>
-    </div><br>
-    <div class="left-side-container3">
-        <i class="fas fa-at left-side-icon"></i>
-        <span class="comTextFont">s.psharma887@gmail.com</span>
-      </div></br>
-      <div class="left-side-container4">
-          <i class="fas fa-phone-alt left-side-icon"></i>
-          <span class="comTextFont">9814732775</span>
-        </div>
-        <hr><br>
-        <div class="left-side-container5">
-          <div>
-            <i class="fas fa-globe-europe left-side-icon"></i>
-            <span class="comTextFont lang">Language</span>
-          </div><br>
-            <div class="language">
-              <span class="comTextFont">Hindi,</span>
-              <span class="comTextFont">English,</span>
-              <span class="comTextFont">Punjabi</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>shubham Sharma</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header id="main-header">
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-md-5">
+            <img src="img/person1.jpg" class="img" alt="" />
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="d-flex flex-column">
+              <div class="p-5 bg-dark text-white">
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <h1 class="display-4">Shubham Sharma</h1>
+                  <div class="d-none d-md-block">
+                    <a href="https://www.linkedin.com/in/shubham-sharma-34bbab18b/" class="text-white">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://www.facebook.com/profile.php?id=100005262840242" class="text-white">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://www.instagram.com/s_h_u_b_h_a_m05/" class="text-white">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://github.com/thecreatorsir" class="text-white">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-4 bg-black">
+                Ameture Full Stack Web Developer
+              </div>
+
+              <div>
+                <div
+                  class="d-flex flex-row text-white align-items-stretch text-center"
+                >
+                  <div
+                    class="port-item p-4 bg-primary"
+                    data-toggle="collapse"
+                    data-target="#home"
+                  >
+                    <i class="fas fa-home fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Home</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-success"
+                    data-toggle="collapse"
+                    data-target="#resume"
+                  >
+                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Resume</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-warning"
+                    data-toggle="collapse"
+                    data-target="#work"
+                  >
+                    <i class="fas fa-folder-open fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Work</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-danger"
+                    data-toggle="collapse"
+                    data-target="#contact"
+                  >
+                    <i class="fas fa-envelope fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Contact</span>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div><br>
-        <div class="left-side-container6">
-          <div>
-            <i class="fas fa-star-of-life left-side-icon"></i>
-            <span class="comTextFont lang">Skills</span>
-          </div><br>
-          <div class="language">
-            <span class="comTextFont">C,</span>
-            <span class="comTextFont">C++,</span>
-            <span class="comTextFont">Html,</span>
-            <span class="comTextFont">CSS,</span>
-            <span class="comTextFont">Javascript</span>
           </div>
         </div>
-    </div>
-  </div>
- 
-    <div class="about right-side common">
-      <div class="aboutContainer">
-        <div class="aboutContainer1">
-        <i class="far fa-address-card"></i>
-      <span class='title1 comTextFont'>About:-</span>
-         </div>
-        <div class="aboutContainer2">
-          <p class="content">I'm Honest,Curious,delibrate and the fun loving guy
-            with too much of free time.Some people like me, and i also like some people.I break some rule,but follow most,I have burnt a lot of bridges.I'm confident,and then i not again,I'm flawed,and perfect.Or somthing.
+      </header>
+
+      <!-- HOME -->
+      <div id="home" class="collapse show">
+        <div class="card card-body bg-primary text-white py-5">
+          <h2>Welcome To My Page</h2>
+          <p class="lead">
+            Scroll down to know more about me...
           </p>
         </div>
-      </div>
-    </div>
-    <div class="vision right-side common">
-      <div class="visionContainer">
-          <i class="far fa-eye"></i>
-     <span class='title2 comTextFont'><b>Vision:-</b></span>
-     <p class='sub-title2 comTextFont'><b>"Life is short and unpredictable.Eat the dessert first"</b></p>
-    </div>
-  </div>
-    <div class="education right-side common">
-      <div class="educationContainer">
-      <div class="container1">
-          <i class="fas fa-book-open"></i>
-      <span class='title3 comTextFont'>Education:-</span>
-      </div><br>
-     <div class="container2">
-        <i class="fas fa-user-graduate education-icon"></i>
-     <span class="qualification comTextFont"><b>Metriculation:-</b></span>
-     <span class='comTextFont'>CGPA:10</span>
-     <span class="certificate"><a href="#" target="_blank">certificate</a></span>
-    </div>
-    <br><br>
-    <div class="container3">
-        <i class="fas fa-user-graduate education-icon"></i>
-        <span class="qualification comTextFont"><b>Intermidiate:-</b></span>
-        <span class='comTextFont'>PERCENTAGE:93.6%</span>
-        <span class="certificate"><a href="https://drive.google.com/drive/folders/1--KjUskwFUIeHNPcCDnRJJlDqVbd3e5I/IMG_20180804_225018.jpg/" target="_blank">certificate</a></span>
-    </div>
-    <br>
-    <br>
-    <div class="container4">
-        <i class="fas fa-university education-icon"></i>
-        <span class="qualification comTextFont"><b>College:-</b>Thapar Institute of Engineering and Technology</span>
-        <span class="comTextFont">2018-ongoing</span>
-        <div class="move">
-        <div class="comTextFont" id="branch"><b>branch:</b>COMPUTER ENGINEERING.</div>
-        <div class="comTextFont" id="branch"><b>CGPA:-</b>8.5/10.</div>
-        </div>
-    </div>
-    </div>
-  </div>
- 
-    <div class="projects right-side common">
-    <div class="projectContainer">
-      <div class="projectContainer1">
-        <i class="fas fa-project-diagram"></i>
-    <span class='title4 comTextFont'>Projects:-</span>
-    </div><br>
-    <div class="projectContainer2">
-      <span class="comTextFont">project.1(major)</span>
-      <span>GitHub Finder</span>
-      <span class="certificate"><a href="https://github.com/thecreatorsir/githubFinder" target="_blank">clickHere</a></span>
-    </div><br><br>
-    <div class="projectContainer3">
-        <span class="comTextFont">project.2</span>
-        <span>LoanCaculator</span>
-        <span class="certificate"><a href="https://github.com/thecreatorsir/initialprojects/tree/master/LoanCalculater" target="_blank">clickHere</a></span>
-      </div><br><br>
-      <div class="projectContainer4">
-        <span class="comTextFont">project.3</span>
-        <span>NumberGuesser</span>
-        <span class="certificate"><a href="https://github.com/thecreatorsir/initialprojects/tree/master/numberguesser" target="_blank">clickHere</a></span>
-      </div><br><br>
-      <div class="projectContainer5">
-          <span class="comTextFont">project.4</span>
-          <span>CDR websiteLayout</span>
-          <span class="certificate"><a href="#" target="_blank">clickHere</a></span>
-        </div><br><br>
-        <div class="projectContainer6">
-          <span class="comTextFont">project.5(minor)</span>
-          <span>TaskList</span>
-          <span class="certificate"><a href="https://github.com/thecreatorsir/initialprojects/tree/master/tasklist" target="_blank">clickHere</a></span>
-    </div>
-    </div>
-    </div>
-    <div style="clear:both"></div>
-  </div>
 
-  <div class="footer">
-<h5 class='title5'>Connect To Me Through Social Media</h5>
-<div class="socialLinks">
-    <a href="https://instagram.com/s_h_u_b_h_a_m05/" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.facebook.com/profile.php?id=100005262840242" target="_blank"><i class="fab fa-facebook-square"></i></a>
-    <a href="https://twitter.com/shubham03582528" target="_blank"><i class="fab fa-twitter-square" ></i></a>
-    <a href="https://github.com/thecreatorsir" target="_blank"><i class="fab fa-github-square"></i></a>
-</div>
-<div class="linkedin">
-  <p>DEVELOPER:-<a href="https://www.linkedin.com/in/shubham-sharma-34bbab18b/" target="_blank">Shubham Sharma</a></p>
-</div>
-  </div>
-</body>
+        <div class="card card-body py-5">
+          <h3>My Skills</h3>
+          <p>
+            Currently Focusing on Web Development and image processing.
+          </p>
+          <hr />
+          <h4>HTML 5</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width:100%"></div>
+          </div>
+          <h4>CSS 3</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width:100%"></div>
+          </div>
+          <h4>JavaScript</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width:70%"></div>
+          </div>
+          <h4>Bootstrap</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width:100%"></div>
+          </div>
+          <h4>Python</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width:50%"></div>
+          </div>
+          <h4>Django</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width:40%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESUME -->
+      <div id="resume" class="collapse">
+        <div class="card card-body bg-success text-white py-5">
+          <h2>My Resume</h2>
+          <p class="lead">
+            “Dear Sir/Madam”, “To whom it may concern” or “Dear recruiter”
+          </p>
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>All About Me</h3>
+          <p>
+            Its just a dummy Data....
+          </p>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Student(BE-COE)</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolor, magnam.
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  College: Thapar University, Patiala.
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: (444) 444-4444
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2018 - Ongoing</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Metriculation</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolor, magnam.
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  School: Tagore International Senior Secondary School,Sahnewal
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: (222) 222-2222
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2011 - 2018</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Intermidiate</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolor, magnam.
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  School: Tagore International Senior Secondary School,Sahnewal
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: (333) 333-3333
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2011 - 2018</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WORK -->
+      <div id="work" class="collapse">
+        <div class="card card-body bg-warning text-white py-5">
+          <h2>My Work</h2>
+          <p class="lead">
+            "Developing a passion for learning. ...
+          </p>
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>What Have I Built?</h3>
+          <p>
+            These are the minor projects that i had built in past few months.
+          </p>
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <a
+                href="images/blog.PNG"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="images/blog.PNG"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="images/calorie.PNG"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="images/calorie.PNG"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="images/shu.PNG"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="images/shu.PNG"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="images/weather.PNG"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="images/weather.PNG"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <div id="contact" class="collapse">
+        <div class="card card-body bg-danger text-white py-5">
+          <h2>Contact</h2>
+          <p class="lead">
+            <address>
+              
+              Reach me at:Thapar University,Patiala,Punjab<br>
+              Mob:98147-32775,96363-81263<br>
+              Pin:147001<br>
+              INDIA
+              </address>
+          </p>
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>Get In Touch</h3>
+          <p>
+            This Functionality Is Not working Right Now.
+          </p>
+          <form>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-danger text-white">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control bg-dark text-white"
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-danger text-white">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input
+                  type="email"
+                  class="form-control bg-dark text-white"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-danger text-white">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea
+                  class="form-control bg-dark text-white"
+                  placeholder="Name"
+                ></textarea>
+              </div>
+            </div>
+
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-danger btn-block btn-lg"
+            />
+          </form>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer id="main-footer" class="p-5 bg-dark text-white">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-outline-light">
+              <i class="fas fa-cloud"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+    <script>
+      $(".port-item").click(function() {
+        $(".collapse").collapse("hide");
+      });
+
+      $(document).on("click", '[data-toggle="lightbox"]', function(e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
+  </body>
 </html>
